@@ -99,13 +99,14 @@ combos {
       bindings = <&kp DOT>, <&kp COMMA>;
       mods =<(MOD_LSFT|MOD_RSFT)>;
    };
-   hm: homerow{
-      compatible = "zmk,behaviour-hold-tap";
-      label = "hm";
+   hm: homerow_mods {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_MODS";
       #binding-cells = <2>;
+      tapping-term-ms = <300>;
+      quick_tap_ms = <0>;
+      flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
-      tapping-term-ms = <200>;
-      flavor = "hold-preferred";
    };
 //     hm: behavior_hm {
 //       compatible = "zmk,behaviour-hold-tap";
@@ -125,7 +126,7 @@ bindings = <
    &kp MINUS &dot      &kp C        &kp P     &kp J            &kp K     &kp F     &kp L     &kp W     &kp X    
    &kp A     &kp O     &kp E        &kp I     &kp Y            &kp V     &kp H     &kp T     &kp N     &kp S 
    &kp FSLH  &kp G     &kp U        &kp D     &kp Q            &kp Z     &kp R     &kp M     &kp B     &kp QUOT 
-                       &hm N1 N1  &kp TAB   &kp SPACE        &kp BSPC  &kp RET   &hm N2 N2 
+                       &hm A A  &kp TAB   &kp SPACE        &kp BSPC  &kp RET   &hm N2 N2 
 >;
 };
 
