@@ -1,0 +1,11 @@
+file_format: "1"
+id: xiao
+name: Xiao
+type: shield
+url: https://github.com/akhlus/zmk-config
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - xiao_left
+  - xiao_right
