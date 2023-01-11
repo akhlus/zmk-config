@@ -126,7 +126,7 @@ bindings = <
    &kp MINUS &dot      &kp C        &kp P     &kp J            &kp K     &kp F     &kp L     &kp W     &kp X    
    &kp A     &kp O     &kp E        &kp I     &kp Y            &kp V     &kp H     &kp T     &kp N     &kp S 
    &kp FSLH  &kp G     &kp U        &kp D     &kp Q            &kp Z     &kp R     &kp M     &kp B     &kp QUOT 
-                       &tom 1 1     &kp TAB   &kp SPACE        &kp BSPC  &kp RET   &tom 2 2 
+                       &tom L1 L1     &kp TAB   &kp SPACE        &kp BSPC  &kp RET   &tom L2 L2 
 >;
 };
 
@@ -136,7 +136,7 @@ bindings = <
    &kp EQUAL   &kp N7   &kp N8         &kp N9   &kp SEMI          &kp QUOT  &kp HOME     &kp UP     &kp END       &kp GRAVE     
    &kp N0      &kp N4   &kp N5         &kp N6   &lbrc             &rbrc     &kp LEFT     &kp DOWN   &kp RIGHT     &kp NUHS  
    &dot        &kp N1   &kp N2         &kp N3   &kp MINUS         &kp FSLH  &kp PG_DN    &kp PG_UP  &kp ESC       &kp NUBS  
-                        &to 0          &kp TAB  &kp SPACE         &kp BSPC  &kp RET      &tom 2 2
+                        &to L0          &kp TAB  &kp SPACE         &kp BSPC  &kp RET      &tom L2 L2
 >;
 };
 
@@ -146,7 +146,7 @@ bindings = <
    &none    &kp F7   &kp F8          &kp F9       &kp F12                &none      &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none     
    &none    &kp F4   &kp F5          &kp F6       &kp F11                &none      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none  
    &none    &kp F1   &kp F2          &kp F3       &kp F10                &none      &none           &none           &none        &none  
-                     &tom 1 1        &kp TAB      &kp SPACE              &kp BSPC   &kp RET         &to 0
+                     &tom L1 L1        &kp TAB      &kp SPACE              &kp BSPC   &kp RET         &to L0
 >;
 };
 
