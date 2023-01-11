@@ -114,7 +114,7 @@ compatible = "zmk,keymap";
 l0_layer {
 label = "0";
 bindings = <
-   &kp MINS  &dot      &kp C        &kp P     &kp J            &kp K     &kp F     &kp L     &kp W     &kp X    
+   &kp MINUS &dot      &kp C        &kp P     &kp J            &kp K     &kp F     &kp L     &kp W     &kp X    
    &kp A     &kp O     &kp E        &kp I     &kp Y            &kp V     &kp H     &kp T     &kp N     &kp S 
    &kp FSLH  &kp G     &kp U        &kp D     &kp Q            &kp Z     &kp R     &kp M     &kp B     &kp QUOT 
                        MO_TOG(1)    &kp TAB   &kp SPACE        &kp BSPC  &kp RET   MO_TOG(2) 
@@ -126,7 +126,7 @@ label = "1";
 bindings = <
    &kp EQUAL   &kp N7   &kp N8         &kp N9   &kp SEMI          &kp QUOT  &kp HOME     &kp UP     &kp END       &kp GRAVE     
    &kp N0      &kp N4   &kp N5         &kp N6   &lbrc             &rbrc     &kp LEFT     &kp DOWN   &kp RIGHT     &kp NUHS  
-   &dot        &kp N1   &kp N2         &kp N3   &kp MINS          &kp FSLH  &kp PG_DN    &kp PG_UP  &kp ESC       &kp NUBS  
+   &dot        &kp N1   &kp N2         &kp N3   &kp MINUS         &kp FSLH  &kp PG_DN    &kp PG_UP  &kp ESC       &kp NUBS  
                         &to 0          &kp TAB  &kp SPACE         &kp BSPC  &kp RET      MO_TOG(2)
 >;
 };
