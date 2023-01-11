@@ -99,30 +99,13 @@ combos {
       bindings = <&kp DOT>, <&kp COMMA>;
       mods =<(MOD_LSFT|MOD_RSFT)>;
    };
-   hm: homerow_mods {
-      compatible = "zmk,behavior-hold-tap";
-      label = "HOMEROW_MODS";
-      #binding-cells = <2>;
-      tapping-term-ms = <300>;
-      quick_tap_ms = <0>;
-      flavor = "tap-preferred";
-      bindings = <&kp>, <&kp>;
-   };
-   tom: behavior_tom {
-      compatible = "zmk,behaviour-hold-tap";
-      label = "TO_MO_LAYER";
-      #binding-cells = <2>;
-      flavor = "hold-preferred";
-      tapping-term-ms = <200>;
-      bindings = <&mo>, <&to>;
-   };
    mo_sl: behavior_mo_sl {
       compatible = "zmk,behavior-hold-tap";
       label = "mo_sl";
       #binding-cells = <2>;
       flavor = "hold-preferred";
       tapping-term-ms = <200>;
-      bindings = <&mo>, <&sl>;
+      bindings = <&mo>, <&to>;
    };    
 };
 
