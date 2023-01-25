@@ -78,12 +78,12 @@ combos {
    combo_ble1 {
       timeout-ms = <50>;
       key-positions = <30 31>;
-      bindings = <&tomo 2 2>
+      bindings = <&tomo 3 3>
    };
       combo_ble2 {
       timeout-ms = <50>;
       key-positions = <34 35>;
-      bindings = <&tomo 2 2>
+      bindings = <&tomo 3 3>
    };
 };
 
@@ -151,6 +151,15 @@ bindings = <
 >;
 };
 
+3_layer {
+label = "3";
+bindings = <
+   &none    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR    &kp F12                &none      &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none     
+   &none    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &kp F11                &none      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none  
+   &none    &kp F1          &kp F2          &kp F3        &kp F10                &none      &none           &none           &none           &none  
+                     &to 0       &kp TAB      &kp BSPC               &kp SPACE  &kp RET         &to 0
+>;
+};
 };
 
 };
