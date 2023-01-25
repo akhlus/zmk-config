@@ -75,6 +75,16 @@ combos {
       key-positions = <17 18>;
       bindings = <&kp LGUI>;
    };
+   combo_ble1 {
+      timeout-ms = <50>;
+      key-positions = <30 31>;
+      bindings = <&tomo 2 2>
+   };
+      combo_ble2 {
+      timeout-ms = <50>;
+      key-positions = <34 35>;
+      bindings = <&tomo 2 2>
+   };
 };
 
  behaviors{
