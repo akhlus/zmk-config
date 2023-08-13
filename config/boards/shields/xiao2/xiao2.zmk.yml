@@ -1,0 +1,11 @@
+file_format: "1"
+id: xiao2
+name: xiao2
+type: shield
+url: https://github.com/akhlus/zmk-config-xiao
+requires: [seeeduino_xiao2_ble]
+features:
+  - keys
+siblings:
+  - xiao2_left
+  - xiao2_right

@@ -2,5 +2,9 @@ include:
   - board: seeeduino_xiao_ble
     shield: xiao_left
   - board: seeeduino_xiao_ble
+    shield: xiao2_left
+  - board: seeeduino_xiao_ble
     shield: xiao_right
+  - board: seeeduino_xiao_ble
+    shield: xiao2_right
 # there is no settingsreset (needed) for the XIAO
