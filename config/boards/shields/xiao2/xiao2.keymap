@@ -126,7 +126,7 @@ label = "0";
 bindings = <
    &kp J     &kp U     &kp O        &kp W     &kp G            &kp K     &kp D     &kp H     &kp L     &kp Z    
    &kp I     &kp E     &kp A        &kp C     &kp Y            &kp V     &kp T     &kp N     &kp R     &kp S 
-   &kp MINUS &kp SEMI  &lbrc         &kp F     &kp SQT          &kp B     &kp P     &kp M     &kp Q     &kp X 
+   &kp MINUS &kp SEMI  &rbrc         &kp F     &kp SQT          &kp B     &kp P     &kp M     &kp Q     &kp X 
                        &kp TAB      &tomo 1 1 &kp BSPC         &kp SPACE &tomo 2 2 &kp RET
 >;
 };
