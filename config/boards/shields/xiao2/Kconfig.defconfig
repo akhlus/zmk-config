@@ -1,13 +1,13 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_XIAO2_LEFT
+if SHIELD_XIAO2_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Apsis"
     
 config ZMK_SPLIT_ROLE_CENTRAL
-    default n
+    default y
 
 endif
 
