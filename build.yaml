@@ -7,4 +7,7 @@ include:
     shield: xiao_right
   - board: seeeduino_xiao_ble
     shield: xiao2_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    
 # there is no settingsreset (needed) for the XIAO
