@@ -6,6 +6,7 @@
 #define L0 0
 #define L1 1
 #define L2 2
+#define L3 3
 
 
 
@@ -124,40 +125,40 @@ compatible = "zmk,keymap";
 0_layer {
 label = "0";
 bindings = <
-   &kp MINUS &dot      &kp C        &kp P     &kp J            &kp K     &kp F     &kp L     &kp W     &kp X    
-   &kp A     &kp O     &kp E        &kp I     &kp Y            &kp V     &kp H     &kp T     &kp N     &kp S 
-   &kp FSLH  &kp G     &kp U        &kp D     &kp Q            &kp Z     &kp R     &kp M     &kp B     &kp QUOT 
-                       &tomo 1 1    &kp TAB   &kp BSPC         &kp SPACE &kp RET   &tomo 2 2 
+   &kp J     &kp U     &kp O        &kp W     &kp G            &kp K     &kp D     &kp H     &kp L     &kp Z    
+   &kp I     &kp E     &kp A        &kp C     &kp Y            &kp V     &kp T     &kp N     &kp R     &kp S 
+   &kp MINUS &kp SEMI  &dot         &kp F     &kp SQT          &kp B     &kp P     &kp M     &kp Q     &kp X 
+                       &kp TAB      &tomo 1 1 &kp BSPC         &kp SPACE &tomo 2 2 &kp RET
 >;
 };
 
 1_layer {
 label = "1";
 bindings = <
-   &kp EQUAL   &kp N7   &kp N8         &kp N9   &kp SEMI          &kp QUOT  &kp HOME     &kp UP     &kp END       &kp GRAVE     
-   &kp N0      &kp N4   &kp N5         &kp N6   &lbrc             &rbrc     &kp LEFT     &kp DOWN   &kp RIGHT     &kp NUHS  
-   &dot        &kp N1   &kp N2         &kp N3   &kp MINUS         &kp FSLH  &kp PG_DN    &kp PG_UP  &kp ESC       &kp NUBS  
-                        &to 0          &kp TAB  &kp BSPC          &kp SPACE &kp RET      &tomo 2 2
+   &kp SEMI   &kp HOME   &kp UP      &kp END   &kp GRAVE        &kp SQT   &kp N7      &kp N8    &kp N9    &dot 
+   &kp FSLH   &kp LEFT   &kp DOWN    &kp RIGHT &lbrc            &rbrc     &kp N4      &kp N5    &kp N6    &kp N0
+   &kp MINUS  &kp PG_UP  &kp PG_DN   &kp ESC   &kp NUHS         &kp NUBS  &kp N1      &kp N2    &kp N3    &kp EQUAL 
+                         &kp TAB     &to 0     &kp BSPC         &kp SPACE &tomo 2 2   &kp RET
 >;
 };
 
 2_layer {
 label = "2";
 bindings = <
-   &none    &kp F7   &kp F8          &kp F9       &kp F12                &none      &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none     
-   &none    &kp F4   &kp F5          &kp F6       &kp F11                &none      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none  
-   &none    &kp F1   &kp F2          &kp F3       &kp F10                &none      &none           &none           &none        &none  
-                     &tomo 1 1       &kp TAB      &kp BSPC               &kp SPACE  &kp RET         &to 0
+   &kp F12    &kp F7   &kp F8     &kp F9       &kp GRAVE           &kp SQT    &kp HOME    &kp UP     &kp END      &kp SEMI     
+   &kp F11    &kp F4   &kp F5     &kp F6       &lbrc               &rbrc      &kp LEFT    &kp DOWN   &kp RIGHT    &kp FSLH 
+   &kp F10    &kp F1   &kp F2     &kp F3       &kp NUHS            &kp NUBS   &kp ESC     &kp PG_DN  &kp PG_UP    &kp MINUS  
+                       &kp TAB    &tomo 1 1    &kp BSPC            &kp SPACE  &to 0       &kp RET
 >;
 };
 
 3_layer {
 label = "3";
 bindings = <
-   &none    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR    &kp F12                &none      &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none     
-   &none    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &kp F11                &none      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none  
-   &none    &kp F1          &kp F2          &kp F3        &kp F10                &none      &none           &none           &none           &none  
-                     &to 0       &kp TAB      &kp BSPC               &kp SPACE  &kp RET         &to 0
+   &none    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR    &none                &none      &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR      &none     
+   &none    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &none                &none      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none  
+   &none    &none           &none           &none         &none                &none      &none           &none           &none           &none  
+                            &to 0           &to 0         &kp BSPC             &kp SPACE  &to 0           &to 0
 >;
 };
 
