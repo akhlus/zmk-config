@@ -4,7 +4,7 @@
 if SHIELD_XIAO2_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Apsis"
+    default "Apsida"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
