@@ -2,7 +2,7 @@ file_format: "1"
 id: xiao2
 name: xiao2
 type: shield
-url: https://github.com/akhlus/zmk-config-xiao
+url: https://github.com/akhlus/zmk-config
 requires: [seeeduino_xiao2_ble]
 features:
   - keys
